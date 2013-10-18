@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical" >
+ 
+  
+    <TextView
+         android:id="@+id/row"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Rows:" />
+ 
+ 
+    <EditText
+         android:id="@+id/editRows"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="number" />
+ 
+ 
+    <TextView
+         android:id="@+id/col"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Columns:" />
+ 
+     <EditText
+         android:id="@+id/editColumns"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="number" />
+ 
+ 
+    <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Mines:" />
+ 
+ 
+    <EditText
+         android:id="@+id/editMines"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+    
+    
+    </LinearLayout>
+    
